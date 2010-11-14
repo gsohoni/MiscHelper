@@ -1,0 +1,21 @@
+MiscHelper
+==========
+
+This helper plugin could be used for displaying time difference in hrs.mins format.
+Also the plugin makes available a method which displays the current financial week.
+
+
+Example
+=======
+
+some view file (index.html.erb):
+
+<%= custom_distance_of_time(Time.now - 2.days, Time.now )%>
+would display 48.00 hrs.
+
+
+Current Financial Week : <%= current_financial_week %>
+
+
+
+Copyright (c) 2010 [name of plugin creator], released under the MIT license
