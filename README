@@ -15,7 +15,8 @@ would display 48.00 hrs.
 
 
 Current Financial Week : <%= current_financial_week %>
+would display the current financial week number (year starts in April)
 
 
 
-Copyright (c) 2010 [name of plugin creator], released under the MIT license
+Copyright (c) 2010 [Gaurav Sohoni], released under the MIT license
